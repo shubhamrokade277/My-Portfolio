@@ -28,8 +28,17 @@ const About = () => {
         <p className="text-xl">
             Completed SSC at MGHS, Karmala. <br/>
             Completed Diploma at SVCP, Pune. <br/>
-            Completed Engineeering at SKNCOE, Pune
+            Completed Engineeering at SKNCOE, Pune <br/>
+            Find my resume below<br/>
+            <br/>
         </p>
+
+        <div>
+           <button className="hover:scale-105group text-white w-fit px-6 py-3 my-2 flex items-center rounded-md bg-gradient-to-r from-cyan-500 to-blue-500 cursor-pointer hover:scale-110 duration-300">
+           <a href="/resume.pdf" target="_blank" rel="noopener noreferrer">Resume</a>
+           </button>
+        </div>
+
       </div>
     </div>
   );

@@ -45,6 +45,12 @@ const Contact = () => {
             </button>
           </form>
         </div>
+
+        <div className="flex justify-center items-center">
+          <p><br/><br/>Created by Shubham Rokade ♛ | 2023
+          </p>
+        </div>
+
       </div>
     </div>
   );
